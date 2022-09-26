@@ -9,4 +9,4 @@ COPY . ./
 RUN pip install -r requirements.txt
 #contained by your image, along with any arguments.
 
-CMD [ "python", "./test.py"]
+CMD [ "python", "./weather.py"]

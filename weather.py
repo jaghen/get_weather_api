@@ -85,7 +85,6 @@ current = int(datetime.today().strftime('%Y%m%d%H'))
 last2_h = int(datetime.today().strftime('%Y%m%d%H'))-2
 
 df = df[(df['time'] >= last2_h) & (df['time'] <= current)]
-df = df
 
 # Calculate mean by prec and temp
 
